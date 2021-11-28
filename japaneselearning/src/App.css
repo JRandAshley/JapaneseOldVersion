@@ -1,13 +1,10 @@
 .App {
-  /*background-color: #282c34;*/
   background-color: whitesmoke;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
-  color: black;
 }
 
 .VocabCard {
@@ -44,19 +41,57 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: flex-start;
+  align-items: flex-start;
 }
 .flexbox-row h3{
   margin: 0px;
 }
 
-.nav-bar{
-  background-color: #282c34;
+.flexbox-centered-item {
   display: flex;
-  justify-content: space-around;
-  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-bar{
+  background-color: lightgray;
+  display: flex;
+  justify-content: start;
+}
+
+.nav-link{
+  color: white;
+  text-decoration: none;
+  background-color: dimgray;
+  padding: 20px;
+  margin-left: 20px;
 }
 
 .SearchBar{
   align-self: flex-start;
   margin: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  border: 1px solid black;
+  background-color: #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+td {
+  background-color: whitesmoke;
+  border: 1px solid black;
+}
+
+.table-data-dakuon{
+  background-color: lightgray;
+}
+.table-data-handakuon{
+  background-color: rgb(182, 181, 181);
 }

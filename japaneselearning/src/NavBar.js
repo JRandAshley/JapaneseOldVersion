@@ -9,10 +9,13 @@ function NavBar() {
 
     return (
         <div className="nav-bar">
-            <NavLink to="/" activeStyle>
+            <NavLink exact to="/" className="nav-link" activeStyle={{backgroundColor: 'darkslategray'}}>
                 Home
             </NavLink>
-            <NavLink to="/vocab" activeStyle>
+            <NavLink to="/kana" className="nav-link" activeStyle={{backgroundColor: 'darkslategray'}}>
+                Kana
+            </NavLink>
+            <NavLink to="/vocab" className="nav-link" activeStyle={{backgroundColor: 'darkslategray'}}>
                 Vocabulary
             </NavLink>
         </div>

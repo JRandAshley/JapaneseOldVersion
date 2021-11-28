@@ -1,4 +1,4 @@
-{
+export const Characters = {
     "-": {
         "a": {
             "Seion": {
