@@ -18,6 +18,12 @@ function NavBar() {
             <NavLink to="/vocab" className="nav-link" activeStyle={{backgroundColor: 'darkslategray'}}>
                 Vocabulary
             </NavLink>
+            <NavLink to="/sentences" className="nav-link" activeStyle={{backgroundColor: 'darkslategray'}}>
+                Sentences
+            </NavLink>
+            <NavLink to="/exercises" className="nav-link" activeStyle={{backgroundColor: 'darkslategray'}}>
+                Exercises
+            </NavLink>
         </div>
     );
 }

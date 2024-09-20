@@ -101,3 +101,22 @@ td {
 .table-data-handakuon{
   background-color: rgb(182, 181, 181);
 }
+
+.sentence-box{
+  margin: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-style: solid;
+  border-color: black;
+}
+
+.flash-card{
+  border-color: black;
+  border-style: solid;
+  border-radius: 20px;
+  margin: 5px;
+  height: 100px;
+  width: 300px;
+  text-align: center;
+  padding: 70px 0;
+}

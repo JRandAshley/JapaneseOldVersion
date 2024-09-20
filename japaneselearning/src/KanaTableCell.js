@@ -2,7 +2,7 @@ import './App.css';
 import { Characters } from './Data/Characters';
 
 function KanaTableCell(props) {
-    var cellData = ""
+    var cellData = "";
     if(props.romanji == true){
         let c = props.consonant;
         let v = props.vowel;
